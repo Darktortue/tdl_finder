@@ -34,12 +34,12 @@ def main():
     domain = input("Enter the domain name: ")
     tlds = [
         'com', 'net', 'org',  # Most common TLDs
-        #'dz', 'ao', 'bj', 'bw', 'bf', 'bi', 'cv', 'cm', 'cf', 'td', 'km', 'cg', 'cd', 'dj', 'eg', 'gq', 'er', 'sz', 'et', 'ga', 'gm', 'gh', 'gn', 'gw', 'ci', 'ke', 'ls', 'lr', 'ly', 'mg', 'mw', 'ml', 'mr', 'mu', 'yt', 'ma', 'mz', 'na', 'ne', 'ng', 're', 'rw', 'sh', 'st', 'sn', 'sc', 'sl', 'so', 'za', 'ss', 'sd', 'tz', 'tg', 'tn', 'ug', 'eh', 'zm', 'zw', # African countries
+        'dz', 'ao', 'bj', 'bw', 'bf', 'bi', 'cv', 'cm', 'cf', 'td', 'km', 'cg', 'cd', 'dj', 'eg', 'gq', 'er', 'sz', 'et', 'ga', 'gm', 'gh', 'gn', 'gw', 'ci', 'ke', 'ls', 'lr', 'ly', 'mg', 'mw', 'ml', 'mr', 'mu', 'yt', 'ma', 'mz', 'na', 'ne', 'ng', 're', 'rw', 'sh', 'st', 'sn', 'sc', 'sl', 'so', 'za', 'ss', 'sd', 'tz', 'tg', 'tn', 'ug', 'eh', 'zm', 'zw', # African countries
         'us', 'ca', 'mx', 'br', 'ar', 'cl', 'co', 'pe', 've', 'ec', 'gt', 'cu', 'do', 'bo', 'hn', 'py', 'sv', 'cr', 'pr', 'pa', 'uy', 'ni',  # American countries
-        #'cn', 'jp', 'in', 'bd', 'pk', 'id', 'ir', 'th', 'vn', 'ph', 'tr',  # Asian countries
-        #'ru', 'kz', 'az', 'kg', 'tj', 'uz', 'tm', 'ge', 'am', 'by', 'ua',  # Eurasian countries
+        'cn', 'jp', 'in', 'bd', 'pk', 'id', 'ir', 'th', 'vn', 'ph', 'tr',  # Asian countries
+        'ru', 'kz', 'az', 'kg', 'tj', 'uz', 'tm', 'ge', 'am', 'by', 'ua',  # Eurasian countries
         'uk', 'de', 'fr', 'es', 'it', 'nl', 'se', 'pl', 'fi', 'be', 'at', 'ch', 'cz', 'ie', 'ro', 'hu', 'pt', 'gr', 'dk', 'no', 'tr', 'ua', 'rs', 'bg', 'hr', 'lt', 'sk', 'ee', 'si', 'lv', 'is', 'lu', 'mt', 'al', 'mk', 'cy'  # European countries
-        #'au', 'nz', 'fj', 'pg', 'sb', 'to', 'vu', 'ws', 'ki', 'fm', 'mh', 'nr', 'pw', 'tv',  # Oceanian countries
+        'au', 'nz', 'fj', 'pg', 'sb', 'to', 'vu', 'ws', 'ki', 'fm', 'mh', 'nr', 'pw', 'tv',  # Oceanian countries
     ]
     
     existing_domains = check_domains(domain, tlds)
