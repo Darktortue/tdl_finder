@@ -38,7 +38,7 @@ def main():
         'us', 'ca', 'mx', 'br', 'ar', 'cl', 'co', 'pe', 've', 'ec', 'gt', 'cu', 'do', 'bo', 'hn', 'py', 'sv', 'cr', 'pr', 'pa', 'uy', 'ni',  # American countries
         'cn', 'jp', 'in', 'bd', 'pk', 'id', 'ir', 'th', 'vn', 'ph', 'tr',  # Asian countries
         'ru', 'kz', 'az', 'kg', 'tj', 'uz', 'tm', 'ge', 'am', 'by', 'ua',  # Eurasian countries
-        'uk', 'de', 'fr', 'es', 'it', 'nl', 'se', 'pl', 'fi', 'be', 'at', 'ch', 'cz', 'ie', 'ro', 'hu', 'pt', 'gr', 'dk', 'no', 'tr', 'ua', 'rs', 'bg', 'hr', 'lt', 'sk', 'ee', 'si', 'lv', 'is', 'lu', 'mt', 'al', 'mk', 'cy'  # European countries
+        'co.uk', 'de', 'fr', 'es', 'it', 'nl', 'se', 'pl', 'fi', 'be', 'at', 'ch', 'cz', 'ie', 'ro', 'hu', 'pt', 'gr', 'dk', 'no', 'tr', 'ua', 'rs', 'bg', 'hr', 'lt', 'sk', 'ee', 'si', 'lv', 'is', 'lu', 'mt', 'al', 'mk', 'cy'  # European countries
         'au', 'nz', 'fj', 'pg', 'sb', 'to', 'vu', 'ws', 'ki', 'fm', 'mh', 'nr', 'pw', 'tv',  # Oceanian countries
     ]
     
